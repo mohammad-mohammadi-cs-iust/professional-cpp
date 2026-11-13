@@ -20,6 +20,6 @@ namespace  Records {
 
     private:
         std::vector<Employee> m_employees;
-
+        int m_nextEmployeeNumber{ FirstEmployeeNumber };
     };
 }
