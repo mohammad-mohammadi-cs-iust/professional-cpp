@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\projects\repos\professional-cpp\src\employee.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\projects\repos\professional-cpp\modules\employee.cppm">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\projects\repos\professional-cpp\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{48DDCF70-9CD3-3B48-A6D5-56AAF421CE01}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

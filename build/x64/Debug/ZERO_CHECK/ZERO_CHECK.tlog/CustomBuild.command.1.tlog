@@ -1,0 +1,10 @@
+^F:\PROJECTS\REPOS\PROFESSIONAL-CPP\BUILD\CMAKEFILES\DA33CB8BA57A8274006BA9DEB22925B6\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/projects/repos/professional-cpp -BF:/projects/repos/professional-cpp/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file F:/projects/repos/professional-cpp/build/EmployeeRecordsSystem.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

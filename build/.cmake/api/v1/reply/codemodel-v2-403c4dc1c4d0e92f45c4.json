@@ -1,0 +1,268 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : [],
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-99a74fdd381cf5e91560.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "EmployeeRecordsSystem",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-28e6806fe6c32f18cf04.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "EmployeeTest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-EmployeeTest-Debug-9941b0f1db2853fb0af0.json",
+					"name" : "EmployeeTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-d76f696954524dc1003f.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"abstractTargets" : [],
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Release-99a74fdd381cf5e91560.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "EmployeeRecordsSystem",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-28e6806fe6c32f18cf04.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "EmployeeTest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-EmployeeTest-Release-fd862b1c0d854c7383a5.json",
+					"name" : "EmployeeTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-d76f696954524dc1003f.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"abstractTargets" : [],
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-MinSizeRel-99a74fdd381cf5e91560.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "EmployeeRecordsSystem",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-28e6806fe6c32f18cf04.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "EmployeeTest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-EmployeeTest-MinSizeRel-8e0a256ebeaed3d34158.json",
+					"name" : "EmployeeTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-d76f696954524dc1003f.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"abstractTargets" : [],
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-RelWithDebInfo-99a74fdd381cf5e91560.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "EmployeeRecordsSystem",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-28e6806fe6c32f18cf04.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "EmployeeTest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-EmployeeTest-RelWithDebInfo-faa1ddf2204fe89f8a07.json",
+					"name" : "EmployeeTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-d76f696954524dc1003f.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "F:/projects/repos/professional-cpp/build",
+		"source" : "F:/projects/repos/professional-cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 12
+	}
+}
