@@ -20,6 +20,10 @@ namespace  Records {
 
     private:
         std::vector<Employee> m_employees;
+<<<<<<< HEAD
         int m_nextEmployeeNumber{ FirstEmployeeNumber };
+=======
+
+>>>>>>> 6795d7507931488ec0e9c1fa3d9418c496caaa8c
     };
 }
