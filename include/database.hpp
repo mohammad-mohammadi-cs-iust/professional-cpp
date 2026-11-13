@@ -3,5 +3,14 @@
 #include "employee.hpp"
 
 namespace  Records {
-    const int FirstEmployeeNumber { 1'000 };
+    const int FirstEmployeeNumber{ 1'000 };
+
+    class Database {
+    public:
+        Employee& addEmployee(const std::string& firstName,
+            const std::string& lastName);
+        Employee& getEmployee(int employeeNumber);
+        Employee& getEmployee(const std::string& firstName,
+            const std::string& lastName);
+    };
 }
