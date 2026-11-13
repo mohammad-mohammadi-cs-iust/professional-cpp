@@ -1,5 +1,5 @@
 
-cmake_minimum_required(VERSION 3.23)
+cmake_minimum_required(VERSION 4.2)
 
 project(EmployeeRecordsSystem LANGUAGES CXX)
 
@@ -8,7 +8,7 @@ add_executable(EmployeeTest
     src/employeeTest.cpp
 )
 
-target_compile_features(EmployeeTest PRIVATE cxx_std_20)
+target_compile_features(EmployeeTest PRIVATE cxx_std_23)
 
 target_include_directories(EmployeeTest
     PRIVATE
