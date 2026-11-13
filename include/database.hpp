@@ -1,5 +1,6 @@
 #pragma once
-
+#include<string>
+#include<vector>
 #include "employee.hpp"
 
 namespace  Records {
@@ -16,5 +17,9 @@ namespace  Records {
         void displayAll() const;
         void displayCurrent() const;
         void displayFormer() const;
+
+    private:
+        std::vector<Employee> m_employees;
+
     };
 }
