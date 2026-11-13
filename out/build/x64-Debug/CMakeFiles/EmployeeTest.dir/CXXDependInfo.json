@@ -12,15 +12,20 @@
 	"dir-top-src" : "F:/projects/repos/professional-cpp",
 	"exports" : [],
 	"forward-modules-from-target-dirs" : [],
-	"include-dirs" : [],
-	"language" : "CXX",
-	"linked-target-dirs" : 
+	"include-dirs" : 
 	[
-		"F:/projects/repos/professional-cpp/out/build/x64-Debug/CMakeFiles/Employee.dir"
+		"F:\\projects\\repos\\professional-cpp\\include"
 	],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
 	"module-dir" : "F:/projects/repos/professional-cpp/out/build/x64-Debug/CMakeFiles/EmployeeTest.dir",
 	"sources" : 
 	{
+		"CMakeFiles/EmployeeTest.dir/src/employee.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "F:/projects/repos/professional-cpp/src/employee.cpp"
+		},
 		"CMakeFiles/EmployeeTest.dir/src/employeeTest.cpp.obj" : 
 		{
 			"language" : "CXX",
