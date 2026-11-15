@@ -24,4 +24,16 @@ namespace Records {
 
 		throw logic_error{ "No employee found." };
 	}
+
+	Employee& Database::getEmployee(const string& firstName,
+		const string& lastName) {
+		for (auto& employee : m_employees) {
+			if (employee.getFirstName() == firstName &&
+				employee.getLastName() == lastName) {
+				return employee;
+			}
+		}
+
+		throw logic_error{ "No employee found." };
+	}
 }
