@@ -1,6 +1,7 @@
 #include<database.hpp>
 #include<string>
 #include<vector>
+#include<stdexcept>
 
 using namespace std;
 
@@ -12,5 +13,15 @@ namespace Records {
 		theEmployee.hire();
 		m_employees.push_back(theEmployee);
 		return m_employees.back();
+	}
+
+	Employee& Database::getEmployee(int employeeNumber) {
+		for (auto& employee : m_employees) {
+			if (employee.getEmployeeNumber() == employeeNumber) {
+				return employee;
+			}
+		}
+
+		throw logic_error{ "No employee found." };
 	}
 }
