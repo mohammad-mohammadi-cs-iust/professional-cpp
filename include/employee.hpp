@@ -1,7 +1,7 @@
 #pragma once
 #include <string>
 
-namespace Records {
+namespace HR {
 	inline constexpr int DefaultStartingSalary{ 30'000 };
 	inline constexpr int DefaultRaiseAndDemeritAmount{ 1'000 };
 

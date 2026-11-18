@@ -3,7 +3,7 @@
 #include<vector>
 #include "employee.hpp"
 
-namespace  Records {
+namespace  HR {
     const int FirstEmployeeNumber{ 1'000 };
 
     class Database {

@@ -5,7 +5,7 @@ using namespace std;
 
 
 
-namespace Records {
+namespace HR {
 		Employee::Employee(const string& firstName,
 			const string& lastName)
 			: m_firstName{ firstName }, m_lastName{ lastName }

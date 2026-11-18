@@ -1,7 +1,7 @@
 #include "employee.hpp"
 #include <iostream>
 using namespace std;
-using namespace Records;
+using namespace HR;
 
 int main() {
 	cout << ("Testing the Employee class.");
