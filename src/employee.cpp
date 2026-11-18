@@ -61,6 +61,12 @@ namespace HR {
 			return m_salary;
 		}
 
+		void Employee::setTitle(Title title) { m_title = title; }
+		Title Employee::getTitle()  const 
+		{
+			return m_title;
+		}
+
 		bool Employee::isHired() const {
 			return m_hired;
 		}

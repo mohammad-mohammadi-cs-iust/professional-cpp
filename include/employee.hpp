@@ -5,6 +5,12 @@ namespace HR {
 	inline constexpr int DefaultStartingSalary{ 30'000 };
 	inline constexpr int DefaultRaiseAndDemeritAmount{ 1'000 };
 
+	enum class Title {
+		Manager,
+		SeniorEngineer,
+		Engineer,
+	};
+
 	class Employee {
 	public:
 		Employee(const std::string& firstName,
@@ -30,6 +36,9 @@ namespace HR {
 		void setSalary(int salary);
 		int getSalary() const;
 
+		void setTitle(const Title& title);
+		const Title& getTitle() const;
+
 		bool isHired() const;
 
 	private:
@@ -38,6 +47,7 @@ namespace HR {
 		int m_employeeNumber{ -1 };
 		int m_salary{ DefaultStartingSalary };
 		bool m_hired{ false };
+		Title m_title{ Engineer };
 
 
 
