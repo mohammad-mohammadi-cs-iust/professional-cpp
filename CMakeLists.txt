@@ -5,10 +5,8 @@ project(EmployeeRecordsSystem LANGUAGES CXX)
 
 add_executable(EmployeeRecordsSystem
  "src/database.cpp"
- "src/databaseTest.cpp"
  "src/main.cpp"
- "src/employee.cpp"
- "src/employeeTest.cpp")
+ "src/employee.cpp")
 
 target_compile_features(EmployeeRecordsSystem PRIVATE cxx_std_23)
 
