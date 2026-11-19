@@ -1,2 +1,14 @@
 # ninja log v7
 3	21	8144592279580488	clean	4657a475079c8ec1
+135	714	8167443507711577	CMakeFiles/EmployeeTest.dir/src/database.cpp.obj.ddi	81b80efdb0fd06eb
+110	720	8167443507394227	CMakeFiles/EmployeeTest.dir/src/employee.cpp.obj.ddi	4ae684e4a5c64bb
+126	725	8167443507550730	CMakeFiles/EmployeeTest.dir/src/employeeTest.cpp.obj.ddi	81afca21d40186b4
+725	872	8167443514993680	CMakeFiles/EmployeeTest.dir/CXX.dd	17986521dfe0f38a
+725	872	8167443514993680	CMakeFiles/EmployeeTest.dir/CXXModules.json	17986521dfe0f38a
+725	872	8167443514993680	CMakeFiles/EmployeeTest.dir/src/employee.cpp.obj.modmap	17986521dfe0f38a
+725	872	8167443514993680	CMakeFiles/EmployeeTest.dir/src/employeeTest.cpp.obj.modmap	17986521dfe0f38a
+725	872	8167443514993680	CMakeFiles/EmployeeTest.dir/src/database.cpp.obj.modmap	17986521dfe0f38a
+905	2185	8167443515397048	CMakeFiles/EmployeeTest.dir/src/database.cpp.obj	7b2f702374697c22
+897	2760	8167443515345999	CMakeFiles/EmployeeTest.dir/src/employeeTest.cpp.obj	6c6d2185f736886e
+889	2765	8167443515150664	CMakeFiles/EmployeeTest.dir/src/employee.cpp.obj	c936a97a4be9cd6a
+2766	3467	8167443534031057	EmployeeTest.exe	22a61eb5213a0f20
