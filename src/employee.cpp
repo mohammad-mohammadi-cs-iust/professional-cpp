@@ -1,6 +1,6 @@
 #include "employee.hpp"
 #include <string>
-#include <iostream>
+#include <print>
 using namespace std;
 
 
@@ -27,13 +27,26 @@ namespace HR {
 		}
 		void Employee::display() const
 		{
-			cout << "Employee: " << getLastName()
-				<< ", " << getFirstName() << '\n';
+			println("Employee: {}, {}", getLastName(), getFirstName());
+			println("------------------------");
+			println("{}", isHired() ? "Current Employee" : "Former Employee");
+			println("Employee Number: {}", getEmployeeNumber());
+			
+			switch (getTitle()) {
+			case Title::Manager:
+				println("Title: Manager");
+				break;
 
-			cout << "------------------------\n";
-			cout << (isHired() ? "Current Employee" : "Former Employee") << '\n';
-			cout << "Employee Number: " << getEmployeeNumber() << '\n';
-			cout << "Salary: $" << getSalary() << "\n\n";
+			case Title::SeniorEngineer:
+				println("Title: Senior Engineer");
+				break;
+
+			case Title::Engineer:
+				println("Title: Engineer");
+				break;
+			}
+
+			println("Salary: ${}\n", getSalary());
 
 		}
 

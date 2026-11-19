@@ -12,6 +12,7 @@ int main() {
 	emp.setSalary(50'000);
 	emp.promote();
 	emp.promote(50);
+	emp.setTitle(Title::SeniorEngineer);
 	emp.hire();
 	emp.display();
 

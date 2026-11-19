@@ -36,8 +36,8 @@ namespace HR {
 		void setSalary(int salary);
 		int getSalary() const;
 
-		void setTitle(const Title& title);
-		const Title& getTitle() const;
+		void setTitle(Title title);
+		Title getTitle() const;
 
 		bool isHired() const;
 
@@ -47,7 +47,7 @@ namespace HR {
 		int m_employeeNumber{ -1 };
 		int m_salary{ DefaultStartingSalary };
 		bool m_hired{ false };
-		Title m_title{ Engineer };
+		Title m_title{ Title::Engineer };
 
 
 
